@@ -1,0 +1,33 @@
+.navbar {
+  height: 124px;
+  background-color: #E51C23;
+}
+
+.navbar ul {
+  list-style-type: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.navbar ul li {
+  display: inline;
+  margin-left: 10px;
+  color: black;
+  text-decoration: solid;
+}
+
+.plusIcon {
+  height: 100%;
+  width: 100%;
+}
+
+.frame {
+  height: 40px;
+  margin-top: 50%;
+  margin-right: 20px;
+  
+}
