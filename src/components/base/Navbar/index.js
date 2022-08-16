@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, useParams } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import style from "./navbar.module.css"
 import logoPokemon from "../../../assets/images/logoPokemon.png"
 import iconPlus from "../../../assets/icons/plus-lg.svg"
@@ -17,9 +17,9 @@ const Navbar = ({ page }) => {
                                 </Link>
                             </li>
                             <li className={"float-end " + style.link}>
-                                <Link to="/">
+                                <Link to="/AddPokemon">
                                     <div className={style.frame}>
-                                        <img className={style.plusIcon} src={iconPlus} alt="logoPokemon" />
+                                        <img  className={style.plusIcon} src={iconPlus} alt="logoPokemon" />
                                     </div>
                                 </Link>
                             </li>

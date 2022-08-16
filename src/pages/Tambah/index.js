@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../../components/base/Navbar'
 import imagedefault from '../../../src/assets/images/imgdflt.png'
-import style from './addp.module.css'
+// import style from './addp.module.css'
 import Button from '../../components/base/Button'
 import Card from '../../components/base/Card'
 
